@@ -3,7 +3,7 @@
 ## Education
 
 | B.Tech | IIT Guwahati | Chemical Engineering | 7.75
-.
+
 | M.Tech | IIT Kanpur   | Chemical Engineering | 9.67
 
 
