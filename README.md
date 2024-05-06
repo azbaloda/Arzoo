@@ -1,5 +1,3 @@
-# Arzoo Portfolio
-
 # Apiring Data Analyst
 
 ## Education
