@@ -2,11 +2,10 @@
 
 ## Education
 
-| B.Tech | IIT Guwahati | Chemical Engineering | 7.75
-
-| M.Tech | IIT Kanpur   | Chemical Engineering | 9.67
-
-
+  | B.Tech         | IIT Guwahati         | Chemical Engineering     | 7.75     |
+  |----------------|----------------------|--------------------------|----------|
+  | **M.Tech**     | **IIT Kanpur**       | **Chemical Engineering** | **9.67** |
+  
 ## Work Experience
 
 - Reduced operational cost by washing of 2 dryers simultaneously using hot water with savings of 10.54 Lakhs/annum and reduced HIRA score from 384 to 64
@@ -24,7 +23,7 @@
 | [EDA](https://moonshot.scaler.com/s/sl/2KNZRl4RqV)             |
 
 ## Projects
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### [ Project 1: Target Business Analysis using SQL](https://github.com/azbaloda/SQL_Target_Analysis)
 
 -	Utilized BigQuery for the systematic uploading and management of comprehensive 8 datasets of about 100,000 orders placed
