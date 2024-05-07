@@ -1,12 +1,16 @@
 # Aspiring Data Analyst
 
+<div align="left">
+  <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/8e00a6eb-3554-40b5-b8f2-afd429e0ecd9" width="300" height="400" />
+</div>
+
 ## Education
 
   | B.Tech         | IIT Guwahati         | Chemical Engineering     | 7.75     |
   |----------------|----------------------|--------------------------|----------|
   | **M.Tech**     | **IIT Kanpur**       | **Chemical Engineering** | **9.67** |
   
-## Work Experience at Galaxy Surfactants Ltd.
+## Work Experience at Galaxy Surfactants Ltd.  <a href="https://www.galaxysurfactants.com/"><img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/02b9a910-7714-477b-8f72-683203dcc678" width="70" height="35" />
 ### Trainee Plant Engineer (Sept-2020 to Sept-2021)
 ### Plant officer (Sept-2021 to May-2023)
 ### Senior Plant officer (May-2020 to Oct-2021)
@@ -19,14 +23,12 @@
 
 ## Certifications for Data Analyst
 
-| Skill Certificates                                             |
-|----------------------------------------------------------------|
-| [Python Libraries](https://moonshot.scaler.com/s/sl/S5H5tOyZM3)|
-| [SQL](https://moonshot.scaler.com/s/sl/UbvSt91s1H)             |
-| [EDA](https://moonshot.scaler.com/s/sl/2KNZRl4RqV)             |
+| Skill Certificates                                                                                                                                                                 |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <table width="100%"><tr><td width="33%" align="center"><a href="https://moonshot.scaler.com/s/sl/S5H5tOyZM3"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" /><br>[Python Libraries](https://moonshot.scaler.com/s/sl/S5H5tOyZM3) </td><td width="33%" align="center"><a href="https://moonshot.scaler.com/s/sl/UbvSt91s1H"><img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/e0eea195-6b5c-4fc8-93dc-503d33e9b07a" height="40" /><br>[SQL](https://moonshot.scaler.com/s/sl/UbvSt91s1H)</td><td width="33%" align="center"><a href="https://moonshot.scaler.com/s/sl/2KNZRl4RqV"><img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/abc23f76-7593-4b95-8e70-a3b5eaf9d654" height="40" /><br>[EDA](https://moonshot.scaler.com/s/sl/2KNZRl4RqV)</td></tr></table> |
 
 ## Projects
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### [ Project 1: Target Business Analysis using SQL](https://github.com/azbaloda/SQL_Target_Analysis)
 
 -	Utilized BigQuery for the systematic uploading and management of comprehensive 8 datasets of about 100,000 orders placed
