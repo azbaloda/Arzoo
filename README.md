@@ -23,10 +23,6 @@
 
 ## Certifications for Data Analyst
 
-| Skill Certificates                                                                                                                                                                 |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|<table width="100%"><tr><td width="33%" align="center"><a href="https://moonshot.scaler.com/s/sl/S5H5tOyZM3"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" /></a><br>[Python Libraries](https://moonshot.scaler.com/s/sl/S5H5tOyZM3) </td><td width="33%" align="center"><a href="https://moonshot.scaler.com/s/sl/UbvSt91s1H"><img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/e0eea195-6b5c-4fc8-93dc-503d33e9b07a" height="40" /></a><br>[SQL](https://moonshot.scaler.com/s/sl/UbvSt91s1H)</td><td width="33%" align="center"><a href="https://moonshot.scaler.com/s/sl/2KNZRl4RqV"><img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/abc23f76-7593-4b95-8e70-a3b5eaf9d654" height="40" /></a><br>[EDA](https://moonshot.scaler.com/s/sl/2KNZRl4RqV)</td></tr></table> |
-
 <table width="100%">
   <tr>
     <th colspan="3" align="center">Skill Certificates</th>
@@ -55,8 +51,6 @@
     </td>
   </tr>
 </table>
-
-
 
 ## Projects
 
