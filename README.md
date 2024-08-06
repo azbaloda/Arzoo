@@ -17,6 +17,9 @@
     }
     .image-section {
       width: 280px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
     }
     table {
       width: 100%;
@@ -30,14 +33,25 @@
     .heading-container {
       display: flex;
       align-items: center;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
     .heading-container h2 {
       margin: 0;
     }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
+
+<div class="image-section">
+  <img src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" alt="Profile Picture" />
+</div>
 
 <div class="container">
   <div class="text-section">
@@ -56,9 +70,6 @@
         <td><strong>9.67</strong></td>
       </tr>
     </table>
-  </div>
-  <div class="image-section">
-    <img src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" alt="Profile Picture" />
   </div>
 </div>
 
