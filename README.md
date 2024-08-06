@@ -29,6 +29,7 @@
     .heading-container {
       display: flex;
       align-items: center;
+      margin-bottom: 20px;
     }
     .heading-container h2 {
       margin: 0;
@@ -63,22 +64,7 @@
     </div>
     <h3>Trainee Plant Engineer (Sept-2020 to Sept-2021)</h3>
     <h3>Plant Officer (Sept-2021 to May-2023)</h3>
-    <h3>Senior Plant Officer (May-2020 to Oct-2021)</h3>
-    <ul>
-      <li>Reduced operational cost by washing 2 dryers simultaneously using hot water with savings of 10.54 Lakhs/annum and reduced HIRA score from 384 to 64</li>
-      <li>Modified the caustic-dosing system for dryer washing which reduced the HIRA score of the activity from 144 to 36 with savings of 2 Lakhs/annum</li>
-      <li>Reduced packing cost by 2.8 Lakhs/annum by changing bag dimensions</li>
-      <li>Installed camlock coupling in tanker unloading line which won 2nd prize (Jury Championship) in CII Kaizen competition</li>
-      <li>Budgeted, monitored & analysed variable overheads (Power & Fuel) of the drying plant</li>
-    </ul>
-  </div>
-  <div class="image-section">
-    <img src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" alt="Profile Picture" />
-  </div>
-</div>
-
-</body>
-</html>
+    <h3>
 
 ## Certifications
 
