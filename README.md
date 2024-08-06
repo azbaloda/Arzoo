@@ -1,5 +1,6 @@
 # Aspiring Data Analyst
 
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -33,10 +34,10 @@
     <h2>Education</h2>
     <table>
       <tr>
-        <td><strong>B.Tech<strong></td>
-        <td><strong>IIT Guwahati<strong></td>
-        <td><strong>Chemical Engineering<strong></td>
-        <td><strong>7.75<strong></td>
+        <td>B.Tech</td>
+        <td>IIT Guwahati</td>
+        <td>Chemical Engineering</td>
+        <td>7.75</td>
       </tr>
       <tr>
         <td><strong>M.Tech</strong></td>
