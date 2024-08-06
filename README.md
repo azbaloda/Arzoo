@@ -39,7 +39,7 @@
 </div>
 
 
-## Certifications for Data Analyst
+## Certifications
 
 <table width="100%">
   <tr>
