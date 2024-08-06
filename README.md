@@ -18,10 +18,11 @@
       </tr>
     </table>
 
-    <h2>Work Experience at Galaxy Surfactants Ltd.</h2>
-    <a href="https://www.galaxysurfactants.com/">
-      <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/02b9a910-7714-477b-8f72-683203dcc678" width="70" height="35" />
+    <h2 style="display: inline;">Work Experience at Galaxy Surfactants Ltd.</h2>
+    <a href="https://www.galaxysurfactants.com/"> 
+      <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/02b9a910-7714-477b-8f72-683203dcc678" width="70" height="35" style="vertical-align: middle;" />
     </a>
+
     <h3>Trainee Plant Engineer (Sept-2020 to Sept-2021)</h3>
     <h3>Plant Officer (Sept-2021 to May-2023)</h3>
     <h3>Senior Plant Officer (May-2020 to Oct-2021)</h3>
