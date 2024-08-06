@@ -1,24 +1,5 @@
 # Aspiring Data Analyst
 
-<img align="right" src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" alt="image" />
-
-## Education
-
-  | B.Tech         | IIT Guwahati         | Chemical Engineering     | 7.75     |
-  |----------------|----------------------|--------------------------|----------|
-  | **M.Tech**     | **IIT Kanpur**       | **Chemical Engineering** | **9.67** |
-  
-## Work Experience at Galaxy Surfactants Ltd.  <a href="https://www.galaxysurfactants.com/"><img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/02b9a910-7714-477b-8f72-683203dcc678" width="70" height="35" />
-### Trainee Plant Engineer (Sept-2020 to Sept-2021)
-### Plant officer (Sept-2021 to May-2023)
-### Senior Plant officer (May-2020 to Oct-2021)
-
-- Reduced operational cost by washing 2 dryers simultaneously using hot water with savings of 10.54 Lakhs/annum and reduced HIRA score from 384 to 64
-- Modified the caustic-dosing system for dryer washing which reduced the HIRA score of the activity from 144 to 36 with savings of 2 Lakhs/annum
-- Reduced packing cost by 2.8 Lakhs/annum by changing bag dimensions
-- Installed camlock coupling in tanker unloading line which won 2nd prize (Jury Championship) in the CII Kaizen competition
-- Budgeted, monitored & analysed variable overheads (Power & Fuel) of the drying plant
-
 <!DOCTYPE html>
 <html>
 <head>
