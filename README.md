@@ -57,9 +57,6 @@
       </tr>
     </table>
   </div>
-  <div class="image-section">
-    <img src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" alt="Profile Picture" />
-  </div>
 </div>
 
 <div class="container">
