@@ -20,10 +20,10 @@
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-bottom: 20px;
+      margin-bottom: 400px;
     }
     th, td {
-      padding: 180px;
+      padding: 80px;
       text-align: left;
     }
     .heading-container {
