@@ -5,10 +5,10 @@
     <h2>Education</h2>
     <table>
       <tr>
-        <td>B.Tech</td>
-        <td>IIT Guwahati</td>
-        <td>Chemical Engineering</td>
-        <td>7.75</td>
+        <td><strong>B.Tech<strong></td>
+        <td><strong>IIT Guwahati<strong></td>
+        <td><strong>Chemical Engineering<strong></td>
+        <td><strong>7.75<strong></td>
       </tr>
       <tr>
         <td><strong>M.Tech</strong></td>
@@ -17,6 +17,7 @@
         <td><strong>9.67</strong></td>
       </tr>
     </table>
+
 
     <h2 style="display: inline;">Work Experience at Galaxy Surfactants Ltd.</h2>
     <a href="https://www.galaxysurfactants.com/"> 
