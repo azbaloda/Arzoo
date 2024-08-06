@@ -9,6 +9,97 @@
     .container {
       display: flex;
       justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .text-section {
+      flex: 1;
+      margin-right: 20px;
+    }
+    .image-section {
+      width: 280px;
+    }
+    .heading-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .heading-container h2 {
+      margin: 0;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="text-section">
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <td><strong>B.Tech</strong></td>
+        <td><strong>IIT Guwahati</strong></td>
+        <td><strong>Chemical Engineering</strong></td>
+        <td><strong>7.75</strong></td>
+      </tr>
+      <tr>
+        <td><strong>M.Tech</strong></td>
+        <td><strong>IIT Kanpur</strong></td>
+        <td><strong>Chemical Engineering</strong></td>
+        <td><strong>9.67</strong></td>
+      </tr>
+    </table>
+
+    <div class="heading-container">
+      <h2>Work Experience at Galaxy Surfactants Ltd.</h2>
+      <a href="https://www.galaxysurfactants.com/">
+        <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/02b9a910-7714-477b-8f72-683203dcc678" width="70" height="35" style="margin-left: 10px;" />
+      </a>
+    </div>
+    <h3>Trainee Plant Engineer (Sept-2020 to Sept-2021)</h3>
+    <h3>Plant Officer (Sept-2021 to May-2023)</h3>
+    <h3>Senior Plant Officer (May-2020 to Oct-2021)</h3>
+    <ul>
+      <li>Reduced operational cost by washing 2 dryers simultaneously using hot water with savings of 10.54 Lakhs/annum and reduced HIRA score from 384 to 64</li>
+      <li>Modified the caustic-dosing system for dryer washing which reduced the HIRA score of the activity from 144 to 36 with savings of 2 Lakhs/annum</li>
+      <li>Reduced packing cost by 2.8 Lakhs/annum by changing bag dimensions</li>
+      <li>Installed camlock coupling in tanker unloading line which won 2nd prize (Jury Championship) in CII Kaizen competition</li>
+      <li>Budgeted, monitored & analysed variable overheads (Power & Fuel) of the drying plant</li>
+    </ul>
+  </div>
+  <div class="image-section">
+    <img src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" alt="Profile Picture" />
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
       margin-bottom: 20px;
     }
     .text-section {
