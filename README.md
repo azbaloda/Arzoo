@@ -5,10 +5,10 @@
     <h2>Education</h2>
     <table>
       <tr>
-        <td><strong>B.Tech<strong></td>
-        <td><strong>IIT Guwahati<strong></td>
-        <td><strong>Chemical Engineering<strong></td>
-        <td><strong>7.75<strong></td>
+        <td>B.Tech</td>
+        <td>IIT Guwahati</td>
+        <td>Chemical Engineering</td>
+        <td>7.75</td>
       </tr>
       <tr>
         <td><strong>M.Tech</strong></td>
@@ -18,16 +18,15 @@
       </tr>
     </table>
 
-    <h2 style="display: inline;">Work Experience at Galaxy Surfactants Ltd.</h2>
-    <a href="https://www.galaxysurfactants.com/"> 
-      <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/02b9a910-7714-477b-8f72-683203dcc678" width="70" height="35" style="vertical-align: middle;" />
+    <h2> style="display: inline;Work Experience at Galaxy Surfactants Ltd.</h2>
+    <a href="https://www.galaxysurfactants.com/">
+      <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/02b9a910-7714-477b-8f72-683203dcc678" width="70" height="35" />
     </a>
-
     <h3>Trainee Plant Engineer (Sept-2020 to Sept-2021)</h3>
     <h3>Plant Officer (Sept-2021 to May-2023)</h3>
     <h3>Senior Plant Officer (May-2020 to Oct-2021)</h3>
     <ul>
-      <li>Reduced operational cost by washing 2 dryers simultaneously using hot water with savings of 10.54 Lakhs/annum and reduced HIRA score from 384 to 64</li>
+      <li>Reduced operational cost by washing of 2 dryers simultaneously using hot water with savings of 10.54 Lakhs/annum and reduced HIRA score from 384 to 64</li>
       <li>Modified the caustic-dosing system for dryer washing which reduced the HIRA score of the activity from 144 to 36 with savings of 2 Lakhs/annum</li>
       <li>Reduced packing cost by 2.8 Lakhs/annum by changing bag dimensions</li>
       <li>Installed camlock coupling in tanker unloading line which won 2nd prize (Jury Championship) in CII Kaizen competition</li>
