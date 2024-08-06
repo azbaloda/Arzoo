@@ -1,36 +1,7 @@
 # Aspiring Data Analyst
 
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    .container {
-      display: flex;
-      justify-content: space-between;
-    }
-    .text-section {
-      flex: 1;
-      margin-right: 20px;
-    }
-    .image-section {
-      flex: 0 0 280px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 20px;
-    }
-    th, td {
-      border: none;
-      padding: 8px;
-      text-align: left;
-    }
-  </style>
-</head>
-<body>
-
-<div class="container">
-  <div class="text-section">
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div style="flex: 1;">
     <h2>Education</h2>
     <table>
       <tr>
@@ -49,7 +20,7 @@
 
     <h2>Work Experience at Galaxy Surfactants Ltd.</h2>
     <a href="https://www.galaxysurfactants.com/">
-      <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/02b9a910-7714-477b-8f72-683203dcc678" width="70" height="35" alt="Galaxy Surfactants" />
+      <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/02b9a910-7714-477b-8f72-683203dcc678" width="70" height="35" />
     </a>
     <h3>Trainee Plant Engineer (Sept-2020 to Sept-2021)</h3>
     <h3>Plant Officer (Sept-2021 to May-2023)</h3>
@@ -62,13 +33,11 @@
       <li>Budgeted, monitored & analysed variable overheads (Power & Fuel) of the drying plant</li>
     </ul>
   </div>
-  <div class="image-section">
-    <img align="right" src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" alt="Profile Picture" />
+  <div style="flex: 0 0 280px; margin-left: 20px;">
+    <img src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" />
   </div>
 </div>
 
-</body>
-</html>
 
 ## Certifications for Data Analyst
 
