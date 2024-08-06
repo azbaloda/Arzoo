@@ -23,7 +23,7 @@
       margin-bottom: 20px;
     }
     th, td {
-      padding: 8px;
+      padding: 180px;
       text-align: left;
     }
     .heading-container {
