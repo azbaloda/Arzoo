@@ -17,9 +17,6 @@
     }
     .image-section {
       width: 280px;
-      position: absolute;
-      top: 20px;
-      right: 20px;
     }
     table {
       width: 100%;
@@ -49,10 +46,6 @@
 </head>
 <body>
 
-<div class="image-section">
-  <img src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" alt="Profile Picture" />
-</div>
-
 <div class="container">
   <div class="text-section">
     <h2>Education</h2>
@@ -70,6 +63,9 @@
         <td><strong>9.67</strong></td>
       </tr>
     </table>
+  </div>
+  <div class="image-section">
+    <img src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" alt="Profile Picture" />
   </div>
 </div>
 
