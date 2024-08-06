@@ -45,7 +45,9 @@
   </style>
 </head>
 <body>
-
+<div class="image-section">
+    <img src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" alt="Profile Picture" />
+</div>
 <div class="container">
   <div class="text-section">
     <h2>Education</h2>
@@ -85,9 +87,6 @@
       <li>Installed camlock coupling in tanker unloading line which won 2nd prize (Jury Championship) in CII Kaizen competition</li>
       <li>Budgeted, monitored & analysed variable overheads (Power & Fuel) of the drying plant</li>
     </ul>
-  </div>
-  <div class="image-section">
-    <img src="https://github.com/user-attachments/assets/c446257e-5eac-483f-b001-e15da7ddefaa" width="280" height="250" alt="Profile Picture" />
   </div>
 </div>
 
