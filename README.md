@@ -1,6 +1,5 @@
 # Aspiring Data Analyst
 
-<!DOCTYPE html>
 <html>
 <head>
   <style>
