@@ -123,7 +123,7 @@
         <img src="https://github.com/azbaloda/azbaloda/blob/main/Supervised-Machine-Learning_2.jpeg?raw=true" height="40" />
       </a>
       <br>
-      <a href="https://moonshot.scaler.com/s/li/YourLinkHere">ML: Supervised Learning</a>
+      <a href="https://moonshot.scaler.com/s/li/rKD3Tz8_ne">ML: Supervised Learning</a>
     </td>
     <td width="26%" align="center">
       <a href="https://moonshot.scaler.com/s/li/RigosLjVUB">
