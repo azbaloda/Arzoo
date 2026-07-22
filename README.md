@@ -14,7 +14,7 @@
     }
 
     .page {
-      max-width: 1220px;
+      max-width: 1000px;
       margin: 0 auto;
       padding: 20px 30px 50px 30px;
     }
