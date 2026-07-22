@@ -25,7 +25,6 @@
       margin: 18px 0 28px 0;
     }
 
-    /* Top Hero Section */
     .hero {
       display: flex;
       justify-content: space-between;
@@ -60,14 +59,14 @@
     }
 
     .company-strip a img {
+      display: block;
       height: 58px;
       width: auto;
       object-fit: contain;
-      display: block;
     }
 
     .hero-right {
-      width: 360px;
+      width: 270px; /* reduced from ~360 by 25% */
       flex-shrink: 0;
     }
 
@@ -79,7 +78,6 @@
       object-fit: cover;
     }
 
-    /* Section headings */
     .section-title {
       font-size: 34px;
       font-weight: 800;
@@ -92,16 +90,14 @@
       margin: 0 0 18px 0;
     }
 
-    /* Education + Work section */
-    .content-layout {
-      display: block;
-    }
-
     table {
-      width: 100%;
       border-collapse: collapse;
       margin-bottom: 28px;
       font-size: 18px;
+    }
+
+    .education-table {
+      width: 75%; /* reduced horizontal space by 25% */
     }
 
     td, th {
@@ -111,7 +107,6 @@
       vertical-align: middle;
     }
 
-    /* Work header with logo beside company name */
     .work-header {
       display: flex;
       align-items: center;
@@ -135,11 +130,22 @@
       display: block;
     }
 
-    .role {
+    .job-block {
+      margin-bottom: 26px;
+    }
+
+    .job-title {
       font-size: 24px;
-      font-weight: 700;
-      margin: 18px 0 6px 0;
+      font-weight: 800;
+      margin: 18px 0 0 0;
       color: #111827;
+    }
+
+    .job-date {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 2px 0 10px 0;
+      color: #374151;
     }
 
     ul {
@@ -152,7 +158,6 @@
       margin-bottom: 12px;
     }
 
-    /* Certifications */
     .cert-table {
       width: 100%;
       margin-top: 10px;
@@ -168,7 +173,6 @@
       object-fit: contain;
     }
 
-    /* Projects */
     .project {
       margin-bottom: 30px;
     }
@@ -193,7 +197,7 @@
       }
 
       .hero-right {
-        width: 280px;
+        width: 220px;
       }
 
       .hero-name {
@@ -209,6 +213,10 @@
         font-size: 28px;
       }
 
+      .education-table {
+        width: 100%;
+      }
+
       ul {
         font-size: 18px;
       }
@@ -218,7 +226,6 @@
 <body>
   <div class="page">
 
-    <!-- TOP SECTION -->
     <div class="hero">
       <div class="hero-left">
         <h1 class="hero-name">Arzoo</h1>
@@ -242,11 +249,10 @@
 
     <hr>
 
-    <!-- EDUCATION -->
     <h2 class="section-title">Education</h2>
     <div class="section-line"></div>
 
-    <table>
+    <table class="education-table">
       <tr>
         <td><strong>B.Tech</strong></td>
         <td><strong>IIT Guwahati</strong></td>
@@ -261,30 +267,45 @@
       </tr>
     </table>
 
-    <!-- WORK EXPERIENCE -->
     <div class="work-header">
-      <h2>Work Experience at Galaxy Surfactants Ltd.</h2>
+      <h2>Work Experience</h2>
       <a class="work-logo" href="https://galaxysurfactants.com/" target="_blank" title="Galaxy Surfactants Website">
         <img src="Photos/GSL New Logo.png" alt="Galaxy Surfactants Ltd. Logo">
       </a>
     </div>
     <div class="section-line"></div>
 
-    <div class="role">Trainee Plant Engineer (Sept-2020 to Sept-2021)</div>
-    <div class="role">Plant Officer (Sept-2021 to May-2023)</div>
-    <div class="role">Senior Plant Officer (May-2023 to Oct-2023)</div>
+    <div class="job-block">
+      <div class="job-title">Data Analyst - VAIBHAV VYAPAAR PVT LTD.</div>
+      <div class="job-date">MAR’25-PRESENT</div>
+      <ul>
+        <li>Reduced KYC manual-review volume by 34.9% through rule-level drop-off analysis across KYC-documents, selfie, and liveliness checks.</li>
+        <li>Analyzed rejection rules, no-service cases, and funnel drop-offs to identify key operational bottlenecks across the loan journey.</li>
+        <li>Supported customer reactivation and repeat-user engagement through coupon campaigns and suspended-user communication.</li>
+        <li>Evaluated third-party API workflows to improve onboarding efficiency and repayment efficiency.</li>
+      </ul>
+    </div>
 
-    <ul>
-      <li>Reduced operational cost by washing 2 dryers simultaneously using hot water with savings of 10.54 Lakhs/annum and reduced HIRA score from 384 to 64</li>
-      <li>Modified the caustic-dosing system for dryer washing which reduced the HIRA score of the activity from 144 to 36 with savings of 2 Lakhs/annum</li>
-      <li>Reduced packing cost by 2.8 Lakhs/annum by changing bag dimensions</li>
-      <li>Installed camlock coupling in tanker unloading line which won 2nd prize (Jury Championship) in CII Kaizen competition</li>
-      <li>Budgeted, monitored & analysed variable overheads (Power & Fuel) of the drying plant</li>
-    </ul>
+    <div class="job-block">
+      <div class="job-title">Prompt Engineer (Freelance) - SOUL AI</div>
+      <div class="job-date">NOV’24-MAR’25</div>
+      <ul>
+        <li>Trained and fine-tuned AI models for Text-to-Python, SQL conversion, and debugging using prompt engineering.</li>
+        <li>Reviewed and generated Python technical content, leveraging data engineering and debugging skills to improve AI model accuracy.</li>
+      </ul>
+    </div>
+
+    <div class="job-block">
+      <div class="job-title">Senior Plant Engineer - GALAXY SURFACTANTS LTD.</div>
+      <div class="job-date">SEP’20-OCT’23</div>
+      <ul>
+        <li>Budgeted, monitored and analysed variable overheads (Power & Fuel) for the drying plant, ensuring efficient resource management.</li>
+        <li>Optimized drying process using DOE, improving efficiency by 1% and saving ₹15 lakhs annually.</li>
+      </ul>
+    </div>
 
     <hr>
 
-    <!-- CERTIFICATIONS -->
     <h2 class="section-title">Certifications</h2>
     <div class="section-line"></div>
 
@@ -333,7 +354,6 @@
 
     <hr>
 
-    <!-- PROJECTS -->
     <h2 class="section-title">Projects</h2>
     <div class="section-line"></div>
 
