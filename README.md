@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -95,6 +95,7 @@
       border-collapse: collapse;
       margin-bottom: 24px;
       font-size: 20px;
+      width: 100%;
     }
 
     td, th {
@@ -140,6 +141,34 @@
 
     li {
       margin-bottom: 12px;
+    }
+
+    .cert-table td, .cert-table th {
+      text-align: center;
+    }
+
+    .cert-table img {
+      height: 45px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .project {
+      margin-bottom: 28px;
+    }
+
+    .project h3 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    .project a {
+      color: #0b63d8;
+      text-decoration: none;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
     }
 
     @media (max-width: 1000px) {
@@ -216,6 +245,92 @@
       <div class="right-photo">
         <img src="Photos/Arzoo.jpeg" alt="Profile Picture">
       </div>
+    </div>
+
+    <h2 class="section-title">Certifications</h2>
+    <div class="section-line"></div>
+
+    <table class="cert-table">
+      <tr>
+        <th colspan="5">Skill Certificates</th>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://moonshot.scaler.com/s/sl/S5H5tOyZM3" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+          </a>
+          <br>
+          <a href="https://moonshot.scaler.com/s/sl/S5H5tOyZM3" target="_blank">Python Libraries</a>
+        </td>
+        <td>
+          <a href="https://moonshot.scaler.com/s/sl/UbvSt91s1H" target="_blank">
+            <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/e0eea195-6b5c-4fc8-93dc-503d33e9b07a" alt="SQL">
+          </a>
+          <br>
+          <a href="https://moonshot.scaler.com/s/sl/UbvSt91s1H" target="_blank">SQL</a>
+        </td>
+        <td>
+          <a href="https://moonshot.scaler.com/s/sl/2KNZRl4RqV" target="_blank">
+            <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/abc23f76-7593-4b95-8e70-a3b5eaf9d654" alt="EDA">
+          </a>
+          <br>
+          <a href="https://moonshot.scaler.com/s/sl/2KNZRl4RqV" target="_blank">EDA</a>
+        </td>
+        <td>
+          <a href="https://moonshot.scaler.com/s/li/rKD3Tz8_ne" target="_blank">
+            <img src="https://github.com/azbaloda/azbaloda/blob/main/Supervised-Machine-Learning_2.jpeg?raw=true" alt="Supervised Learning">
+          </a>
+          <br>
+          <a href="https://moonshot.scaler.com/s/li/rKD3Tz8_ne" target="_blank">ML: Supervised Learning</a>
+        </td>
+        <td>
+          <a href="https://moonshot.scaler.com/s/li/RigosLjVUB" target="_blank">
+            <img src="https://github.com/azbaloda/azbaloda/blob/main/Unsupervised-Machine-Learning_1.jpg?raw=true" alt="Unsupervised Learning">
+          </a>
+          <br>
+          <a href="https://moonshot.scaler.com/s/li/RigosLjVUB" target="_blank">ML: Unsupervised Learning</a>
+        </td>
+      </tr>
+    </table>
+
+    <h2 class="section-title">Projects</h2>
+    <div class="section-line"></div>
+
+    <div class="project">
+      <h3><a href="https://github.com/azbaloda/SQL_Target_Analysis" target="_blank">Project 1: Target Business Analysis using SQL</a></h3>
+      <ul>
+        <li>Utilized BigQuery for systematic uploading and management of 8 datasets with about 100,000 orders.</li>
+        <li>Performed SQL analysis on month-on-month orders, customer distribution, money movement, delivery time, and payments.</li>
+        <li>Formulated actionable insights to improve operational efficiency and business strategy.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/azbaloda/Netflix-Data-Exploration-and-Visualisation" target="_blank">Project 2: Netflix Data Exploration</a></h3>
+      <ul>
+        <li>Analyzed over 10,000 Movies and TV Shows available on Netflix.</li>
+        <li>Used NumPy, Pandas, Matplotlib, and Seaborn for analysis and visualization.</li>
+        <li>Performed preprocessing including missing value treatment, duplicate removal, and outlier handling.</li>
+        <li>Created 8 plot types including bar, pie, count, dist, box, kde, heatmap, and pairplot.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/azbaloda/Jamboree-Education---Linear-Regression" target="_blank">Project 3: Jamboree Linear Regression</a></h3>
+      <ul>
+        <li>Analyzed student data to identify key factors affecting graduate admissions.</li>
+        <li>Built a Linear Regression model with Adjusted R² of 0.82.</li>
+        <li>Recommended improvement areas such as CGPA, research, LOR, and SOP.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://public.tableau.com/app/profile/arzoo.baloda/viz/SalesCustomerDashboards_17120333759470/SalesDashboard?publish=yes" target="_blank">Project 4: Tableau Dashboard - Sales & Customer</a></h3>
+      <ul>
+        <li>Built 2 dashboards for Sales and Customer analysis.</li>
+        <li>Analyzed year-over-year sales performance and customer behavior.</li>
+        <li>Added interactive filters by category, sub-category, region, state, and city.</li>
+      </ul>
     </div>
   </div>
 </body>
