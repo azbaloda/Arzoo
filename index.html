@@ -47,7 +47,7 @@
     .hero-designation {
       font-size: 38px;
       font-weight: 700;
-      margin: 0 0 18px 0;
+      margin: 0;
       color: #111827;
     }
 
@@ -93,73 +93,47 @@
       vertical-align: middle;
     }
 
-    /* Work cards */
-    .work-grid {
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
+    .work-card {
+      border: 1px solid #d1d5db;
+      border-radius: 10px;
+      padding: 20px 24px;
+      background: #fafafa;
       margin-top: 10px;
     }
 
-    .work-card {
-      min-height: 130px;
-      border: 1px solid #d1d5db;
-      border-radius: 10px;
-      padding: 18px 22px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 20px;
-      background: #fafafa;
-    }
-
     .work-card-content {
-      flex: 1;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      gap: 10px;
     }
 
-    .work-card-title {
-      font-size: 24px;
-      font-weight: 800;
-      margin: 0 0 4px 0;
-    }
-
-    .work-card-date {
-      font-size: 20px;
-      font-weight: 700;
-      color: #374151;
-      margin: 0 0 8px 0;
-    }
-
-    .work-card ul {
-      margin: 0 0 0 18px;
-      padding-left: 20px;
-      font-size: 19px;
-    }
-
-    .work-card li {
-      margin-bottom: 8px;
-    }
-
-    .work-logos {
-      min-width: 150px;
+    .work-row {
       display: flex;
-      justify-content: center;
       align-items: center;
-      gap: 14px;
+      gap: 12px;
       flex-wrap: wrap;
     }
 
-    .work-logos img {
-      height: 48px;
+    .work-text {
+      font-size: 24px;
+      font-weight: 800;
+      color: #111827;
+    }
+
+    .work-date {
+      font-size: 19px;
+      font-weight: 700;
+      color: #374151;
+      margin: -2px 0 10px 0;
+    }
+
+    .work-row img {
+      height: 40px;
       width: auto;
       object-fit: contain;
       display: block;
     }
 
-    /* Certification cards */
     .cert-grid {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
@@ -197,7 +171,6 @@
       text-decoration: underline;
     }
 
-    /* Project cards */
     .project-grid {
       display: flex;
       flex-direction: column;
@@ -239,16 +212,6 @@
     @media (max-width: 1050px) {
       .cert-grid {
         grid-template-columns: repeat(2, 1fr);
-      }
-
-      .work-card {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .work-logos {
-        justify-content: flex-start;
-        min-width: auto;
       }
     }
 
@@ -317,115 +280,137 @@
       </tr>
     </table>
 
-<h2 class="section-title">Work Experience</h2>
-<div class="section-line"></div>
+    <h2 class="section-title">Work Experience</h2>
+    <div class="section-line"></div>
 
-<div class="work-grid">
+    <div class="work-card">
+      <div class="work-card-content">
 
-  <div class="work-card">
-    <div class="work-card-content">
-      <div class="work-card-title">
-        <a href="https://in.linkedin.com/company/vaibhav-vyapaar" target="_blank">
-          <img src="Photos/vvpl logo.png" alt="VVPL Logo" style="height:40px; vertical-align:middle; margin-right:10px;">
-        </a>
-        <a href="https://www.loanfront.in/" target="_blank">
-          <img src="Photos/LoanFront App Logo.png" alt="LoanFront Logo" style="height:40px; vertical-align:middle; margin-right:10px;">
-        </a>
-        Data Analyst - VAIBHAV VYAPAAR PVT LTD.
+        <div class="work-row">
+          <span class="work-text">Data Analyst - VAIBHAV VYAPAAR PVT LTD.</span>
+          <a href="https://in.linkedin.com/company/vaibhav-vyapaar" target="_blank">
+            <img src="Photos/vvpl logo.png" alt="VVPL Logo">
+          </a>
+          <a href="https://www.loanfront.in/" target="_blank">
+            <img src="Photos/LoanFront App Logo.png" alt="LoanFront Logo">
+          </a>
+        </div>
+        <div class="work-date">MAR’25-PRESENT</div>
+
+        <div class="work-row">
+          <span class="work-text">Prompt Engineer (Freelance) - SOUL AI</span>
+        </div>
+        <div class="work-date">NOV’24-MAR’25</div>
+
+        <div class="work-row">
+          <span class="work-text">Plant Engineer - GALAXY SURFACTANTS LTD.</span>
+          <a href="https://galaxysurfactants.com/" target="_blank">
+            <img src="Photos/GSL New Logo.png" alt="Galaxy Logo">
+          </a>
+        </div>
+        <div class="work-date">SEP’20-OCT’23</div>
+
       </div>
-      <div class="work-card-date">MAR’25-PRESENT</div>
     </div>
-  </div>
 
-  <div class="work-card">
-    <div class="work-card-content">
-      <div class="work-card-title">
-        Prompt Engineer (Freelance) - SOUL AI
-      </div>
-      <div class="work-card-date">NOV’24-MAR’25</div>
-    </div>
-  </div>
+    <hr>
 
-  <div class="work-card">
-    <div class="work-card-content">
-      <div class="work-card-title">
-        <a href="https://galaxysurfactants.com/" target="_blank">
-          <img src="Photos/GSL New Logo.png" alt="Galaxy Logo" style="height:40px; vertical-align:middle; margin-right:10px;">
+    <h2 class="section-title">Certifications</h2>
+    <div class="section-line"></div>
+
+    <div class="cert-grid">
+      <div class="cert-card">
+        <a href="https://moonshot.scaler.com/s/sl/S5H5tOyZM3" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
         </a>
-        Plant Engineer - GALAXY SURFACTANTS LTD.
+        <a href="https://moonshot.scaler.com/s/sl/S5H5tOyZM3" target="_blank">Python Libraries</a>
       </div>
-      <div class="work-card-date">SEP’20-OCT’23</div>
+
+      <div class="cert-card">
+        <a href="https://moonshot.scaler.com/s/sl/UbvSt91s1H" target="_blank">
+          <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/e0eea195-6b5c-4fc8-93dc-503d33e9b07a" alt="SQL">
+        </a>
+        <a href="https://moonshot.scaler.com/s/sl/UbvSt91s1H" target="_blank">SQL</a>
+      </div>
+
+      <div class="cert-card">
+        <a href="https://moonshot.scaler.com/s/sl/2KNZRl4RqV" target="_blank">
+          <img src="https://github.com/azbaloda/Arzoo_portfolio/assets/161424775/abc23f76-7593-4b95-8e70-a3b5eaf9d654" alt="EDA">
+        </a>
+        <a href="https://moonshot.scaler.com/s/sl/2KNZRl4RqV" target="_blank">EDA</a>
+      </div>
+
+      <div class="cert-card">
+        <a href="https://moonshot.scaler.com/s/li/rKD3Tz8_ne" target="_blank">
+          <img src="https://github.com/azbaloda/azbaloda/blob/main/Supervised-Machine-Learning_2.jpeg?raw=true" alt="Supervised Learning">
+        </a>
+        <a href="https://moonshot.scaler.com/s/li/rKD3Tz8_ne" target="_blank">ML: Supervised Learning</a>
+      </div>
+
+      <div class="cert-card">
+        <a href="https://moonshot.scaler.com/s/li/RigosLjVUB" target="_blank">
+          <img src="https://github.com/azbaloda/azbaloda/blob/main/Unsupervised-Machine-Learning_1.jpg?raw=true" alt="Unsupervised Learning">
+        </a>
+        <a href="https://moonshot.scaler.com/s/li/RigosLjVUB" target="_blank">ML: Unsupervised Learning</a>
+      </div>
     </div>
-  </div>
 
-</div>
+    <hr>
 
-<hr>
+    <h2 class="section-title">Projects</h2>
+    <div class="section-line"></div>
 
-<h2 class="section-title">Projects</h2>
-<div class="section-line"></div>
+    <div class="project-grid">
 
-<div class="project-grid">
+      <div class="project-card">
+        <h3><a href="https://github.com/azbaloda/Uber---Power-Bi-Dashboard" target="_blank">Project: Power BI Dashboard - Uber</a></h3>
+        <ul>
+          <li>Developed a 3-dashboard Uber Trip Analysis project in Power BI.</li>
+          <li>Implemented a dynamic 3-metric selector for bookings, booking amount, and trip distance.</li>
+          <li>Created 10-minute, daily, and heatmap-based demand trend analysis.</li>
+          <li>Developed pickup/drop-off, Top 5 location, and farthest-trip analysis views.</li>
+          <li>Added bookmarks, drill-through, clear filters, and data export for better dashboard usability.</li>
+        </ul>
+      </div>
 
-  <div class="project-card">
-    <h3>
-      <a href="YOUR_UBER_PROJECT_LINK_HERE" target="_blank">Project: Power BI Dashboard - Uber</a>
-    </h3>
-    <ul>
-      <li>Developed a 3-dashboard Uber Trip Analysis project in Power BI.</li>
-      <li>Implemented a dynamic 3-metric selector for bookings, booking amount, and trip distance.</li>
-      <li>Created 10-minute, daily, and heatmap-based demand trend analysis.</li>
-      <li>Developed pickup/drop-off, Top 5 location, and farthest-trip analysis views.</li>
-      <li>Added bookmarks, drill-through, clear filters, and data export for better dashboard usability.</li>
-    </ul>
-  </div>
+      <div class="project-card">
+        <h3><a href="https://github.com/azbaloda/Bank-fraud-detection" target="_blank">Project: Bank Fraud Detection</a></h3>
+        <ul>
+          <li>Built an end-to-end fraud detection pipeline on 6.3M+ financial transactions using Python.</li>
+          <li>Performed EDA to identify fraud patterns across transaction amount, transaction type, hourly activity, and day-night behaviour.</li>
+          <li>Engineered risk-based features such as balance differences, log transaction amount, and high-amount flags to improve fraud detection.</li>
+          <li>Compared Logistic Regression, Random Forest, and XGBoost models, with XGBoost achieving 0.998 ROC-AUC and optimized threshold performance of 90% fraud recall with 34% precision.</li>
+        </ul>
+      </div>
 
-  <div class="project-card">
-    <h3>
-      <a href="YOUR_BANK_FRAUD_PROJECT_LINK_HERE" target="_blank">Project: Bank Fraud Detection</a>
-    </h3>
-    <ul>
-      <li>Built an end-to-end fraud detection pipeline on 6.3M+ financial transactions using Python.</li>
-      <li>Performed EDA to identify fraud patterns across transaction amount, transaction type, hourly activity, and day-night behaviour.</li>
-      <li>Engineered risk-based features such as balance differences, log transaction amount, and high-amount flags to improve fraud detection.</li>
-      <li>Compared Logistic Regression, Random Forest, and XGBoost models, with XGBoost achieving 0.998 ROC-AUC and optimized threshold performance of 90% fraud recall with 34% precision.</li>
-    </ul>
-  </div>
+      <div class="project-card">
+        <h3><a href="https://github.com/azbaloda/SQL_Target_Analysis" target="_blank">Project: Target Business Analysis using SQL</a></h3>
+        <ul>
+          <li>Utilized BigQuery for systematic uploading and management of 8 datasets with about 100,000 orders.</li>
+          <li>Performed SQL analysis on month-on-month orders, customer distribution, money movement, delivery time, and payments.</li>
+          <li>Formulated actionable insights to improve operational efficiency and business strategy.</li>
+        </ul>
+      </div>
 
-  <div class="project-card">
-    <h3>
-      <a href="https://github.com/azbaloda/SQL_Target_Analysis" target="_blank">Project: Target Business Analysis using SQL</a>
-    </h3>
-    <ul>
-      <li>Utilized BigQuery for systematic uploading and management of 8 datasets with about 100,000 orders.</li>
-      <li>Performed SQL analysis on month-on-month orders, customer distribution, money movement, delivery time, and payments.</li>
-      <li>Formulated actionable insights to improve operational efficiency and business strategy.</li>
-    </ul>
-  </div>
+      <div class="project-card">
+        <h3><a href="https://github.com/azbaloda/Jamboree-Education---Linear-Regression" target="_blank">Project: Jamboree Linear Regression</a></h3>
+        <ul>
+          <li>Analyzed student data to identify key factors affecting graduate admissions.</li>
+          <li>Built a Linear Regression model with Adjusted R² of 0.82.</li>
+          <li>Recommended improvement areas such as CGPA, research, LOR, and SOP.</li>
+        </ul>
+      </div>
 
-  <div class="project-card">
-    <h3>
-      <a href="https://github.com/azbaloda/Jamboree-Education---Linear-Regression" target="_blank">Project: Jamboree Linear Regression</a>
-    </h3>
-    <ul>
-      <li>Analyzed student data to identify key factors affecting graduate admissions.</li>
-      <li>Built a Linear Regression model with Adjusted R² of 0.82.</li>
-      <li>Recommended improvement areas such as CGPA, research, LOR, and SOP.</li>
-    </ul>
-  </div>
+      <div class="project-card">
+        <h3><a href="https://public.tableau.com/app/profile/arzoo.baloda/viz/SalesCustomerDashboards_17120333759470/SalesDashboard?publish=yes" target="_blank">Project: Tableau Dashboard - Sales & Customer</a></h3>
+        <ul>
+          <li>Built 2 dashboards for Sales and Customer analysis.</li>
+          <li>Analyzed year-over-year sales performance and customer behavior.</li>
+          <li>Added interactive filters by category, sub-category, region, state, and city.</li>
+        </ul>
+      </div>
 
-  <div class="project-card">
-    <h3>
-      <a href="https://public.tableau.com/app/profile/arzoo.baloda/viz/SalesCustomerDashboards_17120333759470/SalesDashboard?publish=yes" target="_blank">Project: Tableau Dashboard - Sales & Customer</a>
-    </h3>
-    <ul>
-      <li>Built 2 dashboards for Sales and Customer analysis.</li>
-      <li>Analyzed year-over-year sales performance and customer behavior.</li>
-      <li>Added interactive filters by category, sub-category, region, state, and city.</li>
-    </ul>
-  </div>
-
-</div>
+    </div>
 
   </div>
 </body>
