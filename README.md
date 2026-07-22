@@ -16,74 +16,75 @@
     .page {
       max-width: 1220px;
       margin: 0 auto;
-      padding: 20px 30px 40px 30px;
-    }
-
-    h1.site-title {
-      color: #0b63d8;
-      font-size: 38px;
-      margin: 0 0 10px 0;
-      font-weight: 700;
+      padding: 20px 30px 50px 30px;
     }
 
     hr {
       border: none;
       border-top: 1px solid #e5e7eb;
-      margin: 10px 0 28px 0;
+      margin: 18px 0 28px 0;
     }
 
-    h1.main-title {
+    /* Top Hero Section */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 40px;
+      margin-bottom: 30px;
+    }
+
+    .hero-left {
+      flex: 1;
+    }
+
+    .hero-name {
+      font-size: 54px;
+      font-weight: 800;
+      color: #0b63d8;
+      margin: 0 0 10px 0;
+    }
+
+    .hero-designation {
       font-size: 38px;
       font-weight: 700;
-      margin: 0 0 12px 0;
+      margin: 0 0 18px 0;
+      color: #111827;
     }
 
     .company-strip {
       display: flex;
       align-items: center;
-      gap: 16px;
-      margin: 8px 0 8px 0;
+      gap: 18px;
       flex-wrap: wrap;
     }
 
     .company-strip a img {
-      display: block;
-      height: 52px;
+      height: 58px;
       width: auto;
       object-fit: contain;
+      display: block;
     }
 
-    .main-layout {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 24px;
-      margin-top: 20px;
-    }
-
-    .left-content {
-      flex: 1;
-      min-width: 0;
-    }
-
-    .right-photo {
-      width: 350px;
+    .hero-right {
+      width: 360px;
       flex-shrink: 0;
-      margin-top: 0;
     }
 
-    .right-photo img {
+    .hero-right img {
       width: 100%;
       height: auto;
       display: block;
+      border-radius: 8px;
       object-fit: cover;
-      border-radius: 6px;
     }
 
-    h2.section-title {
-      font-size: 28px;
-      font-weight: 700;
-      margin: 26px 0 6px 0;
+    /* Section headings */
+    .section-title {
+      font-size: 34px;
+      font-weight: 800;
+      margin: 0 0 8px 0;
+      color: #111827;
     }
 
     .section-line {
@@ -91,56 +92,70 @@
       margin: 0 0 18px 0;
     }
 
+    /* Education + Work section */
+    .content-layout {
+      display: block;
+    }
+
     table {
-      border-collapse: collapse;
-      margin-bottom: 24px;
-      font-size: 20px;
       width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 28px;
+      font-size: 18px;
     }
 
     td, th {
       border: 1px solid #d1d5db;
-      padding: 10px 16px;
+      padding: 10px 14px;
       text-align: left;
       vertical-align: middle;
     }
 
+    /* Work header with logo beside company name */
     .work-header {
       display: flex;
       align-items: center;
-      gap: 16px;
-      margin-top: 18px;
-      margin-bottom: 6px;
+      gap: 14px;
+      margin-top: 10px;
+      margin-bottom: 8px;
       flex-wrap: wrap;
     }
 
     .work-header h2 {
-      font-size: 28px;
-      font-weight: 700;
       margin: 0;
+      font-size: 34px;
+      font-weight: 800;
+      color: #111827;
     }
 
     .work-logo img {
-      width: 92px;
-      height: auto;
-      display: block;
+      height: 54px;
+      width: auto;
       object-fit: contain;
+      display: block;
     }
 
     .role {
-      font-size: 22px;
-      font-weight: 600;
-      margin: 22px 0 8px 0;
+      font-size: 24px;
+      font-weight: 700;
+      margin: 18px 0 6px 0;
+      color: #111827;
     }
 
     ul {
-      margin: 12px 0 0 18px;
-      padding-left: 22px;
-      font-size: 20px;
+      margin: 10px 0 0 18px;
+      padding-left: 24px;
+      font-size: 21px;
     }
 
     li {
       margin-bottom: 12px;
+    }
+
+    /* Certifications */
+    .cert-table {
+      width: 100%;
+      margin-top: 10px;
     }
 
     .cert-table td, .cert-table th {
@@ -148,18 +163,19 @@
     }
 
     .cert-table img {
-      height: 45px;
+      height: 42px;
       width: auto;
       object-fit: contain;
     }
 
+    /* Projects */
     .project {
-      margin-bottom: 28px;
+      margin-bottom: 30px;
     }
 
     .project h3 {
+      margin: 0 0 10px 0;
       font-size: 24px;
-      margin-bottom: 8px;
     }
 
     .project a {
@@ -171,82 +187,104 @@
       text-decoration: underline;
     }
 
-    @media (max-width: 1000px) {
-      .main-layout {
+    @media (max-width: 950px) {
+      .hero {
         flex-direction: column;
       }
 
-      .right-photo {
+      .hero-right {
         width: 280px;
+      }
+
+      .hero-name {
+        font-size: 42px;
+      }
+
+      .hero-designation {
+        font-size: 30px;
+      }
+
+      .section-title,
+      .work-header h2 {
+        font-size: 28px;
+      }
+
+      ul {
+        font-size: 18px;
       }
     }
   </style>
 </head>
 <body>
   <div class="page">
-    <h1 class="site-title">Arzoo</h1>
-    <hr>
 
-    <h1 class="main-title">Data Analyst at Vaibhav Vyapaar Pvt. Ltd.</h1>
+    <!-- TOP SECTION -->
+    <div class="hero">
+      <div class="hero-left">
+        <h1 class="hero-name">Arzoo</h1>
+        <h2 class="hero-designation">Data Analyst at Vaibhav Vyapaar Pvt. Ltd.</h2>
 
-    <div class="company-strip">
-      <a href="https://in.linkedin.com/company/vaibhav-vyapaar" target="_blank" title="Vaibhav Vyapaar Pvt. Ltd. LinkedIn">
-        <img src="Photos/vvpl logo.png" alt="Vaibhav Vyapaar Pvt. Ltd. Logo">
-      </a>
+        <div class="company-strip">
+          <a href="https://in.linkedin.com/company/vaibhav-vyapaar" target="_blank" title="Vaibhav Vyapaar Pvt. Ltd. LinkedIn">
+            <img src="Photos/vvpl logo.png" alt="Vaibhav Vyapaar Pvt. Ltd. Logo">
+          </a>
 
-      <a href="https://www.loanfront.in/" target="_blank" title="LoanFront Website">
-        <img src="Photos/LoanFront App Logo.png" alt="LoanFront App Logo">
-      </a>
-    </div>
-
-    <hr>
-
-    <div class="main-layout">
-      <div class="left-content">
-        <h2 class="section-title">Education</h2>
-        <div class="section-line"></div>
-
-        <table>
-          <tr>
-            <td><strong>B.Tech</strong></td>
-            <td><strong>IIT Guwahati</strong></td>
-            <td><strong>Chemical Engineering</strong></td>
-            <td><strong>7.75</strong></td>
-          </tr>
-          <tr>
-            <td><strong>M.Tech</strong></td>
-            <td><strong>IIT Kanpur</strong></td>
-            <td><strong>Chemical Engineering</strong></td>
-            <td><strong>9.67</strong></td>
-          </tr>
-        </table>
-
-        <div class="work-header">
-          <h2>Work Experience at Galaxy Surfactants Ltd.</h2>
-          <a class="work-logo" href="https://galaxysurfactants.com/" target="_blank" title="Galaxy Surfactants Website">
-            <img src="Photos/GSL New Logo.png" alt="Galaxy Surfactants Ltd. Logo">
+          <a href="https://www.loanfront.in/" target="_blank" title="LoanFront Website">
+            <img src="Photos/LoanFront App Logo.png" alt="LoanFront App Logo">
           </a>
         </div>
-        <div class="section-line"></div>
-
-        <div class="role">Trainee Plant Engineer (Sept-2020 to Sept-2021)</div>
-        <div class="role">Plant Officer (Sept-2021 to May-2023)</div>
-        <div class="role">Senior Plant Officer (May-2023 to Oct-2023)</div>
-
-        <ul>
-          <li>Reduced operational cost by washing 2 dryers simultaneously using hot water with savings of 10.54 Lakhs/annum and reduced HIRA score from 384 to 64</li>
-          <li>Modified the caustic-dosing system for dryer washing which reduced the HIRA score of the activity from 144 to 36 with savings of 2 Lakhs/annum</li>
-          <li>Reduced packing cost by 2.8 Lakhs/annum by changing bag dimensions</li>
-          <li>Installed camlock coupling in tanker unloading line which won 2nd prize (Jury Championship) in CII Kaizen competition</li>
-          <li>Budgeted, monitored & analysed variable overheads (Power & Fuel) of the drying plant</li>
-        </ul>
       </div>
 
-      <div class="right-photo">
+      <div class="hero-right">
         <img src="Photos/Arzoo.jpeg" alt="Profile Picture">
       </div>
     </div>
 
+    <hr>
+
+    <!-- EDUCATION -->
+    <h2 class="section-title">Education</h2>
+    <div class="section-line"></div>
+
+    <table>
+      <tr>
+        <td><strong>B.Tech</strong></td>
+        <td><strong>IIT Guwahati</strong></td>
+        <td><strong>Chemical Engineering</strong></td>
+        <td><strong>7.75</strong></td>
+      </tr>
+      <tr>
+        <td><strong>M.Tech</strong></td>
+        <td><strong>IIT Kanpur</strong></td>
+        <td><strong>Chemical Engineering</strong></td>
+        <td><strong>9.67</strong></td>
+      </tr>
+    </table>
+
+    <!-- WORK EXPERIENCE -->
+    <div class="work-header">
+      <h2>Work Experience at Galaxy Surfactants Ltd.</h2>
+      <a class="work-logo" href="https://galaxysurfactants.com/" target="_blank" title="Galaxy Surfactants Website">
+        <img src="Photos/GSL New Logo.png" alt="Galaxy Surfactants Ltd. Logo">
+      </a>
+    </div>
+    <div class="section-line"></div>
+
+    <div class="role">Trainee Plant Engineer (Sept-2020 to Sept-2021)</div>
+    <div class="role">Plant Officer (Sept-2021 to May-2023)</div>
+    <div class="role">Senior Plant Officer (May-2023 to Oct-2023)</div>
+
+    <ul>
+      <li>Reduced operational cost by washing 2 dryers simultaneously using hot water with savings of 10.54 Lakhs/annum and reduced HIRA score from 384 to 64</li>
+      <li>Modified the caustic-dosing system for dryer washing which reduced the HIRA score of the activity from 144 to 36 with savings of 2 Lakhs/annum</li>
+      <li>Reduced packing cost by 2.8 Lakhs/annum by changing bag dimensions</li>
+      <li>Installed camlock coupling in tanker unloading line which won 2nd prize (Jury Championship) in CII Kaizen competition</li>
+      <li>Budgeted, monitored & analysed variable overheads (Power & Fuel) of the drying plant</li>
+    </ul>
+
+    <hr>
+
+    <!-- CERTIFICATIONS -->
     <h2 class="section-title">Certifications</h2>
     <div class="section-line"></div>
 
@@ -293,6 +331,9 @@
       </tr>
     </table>
 
+    <hr>
+
+    <!-- PROJECTS -->
     <h2 class="section-title">Projects</h2>
     <div class="section-line"></div>
 
@@ -332,6 +373,7 @@
         <li>Added interactive filters by category, sub-category, region, state, and city.</li>
       </ul>
     </div>
+
   </div>
 </body>
 </html>
